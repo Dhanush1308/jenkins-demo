@@ -3,18 +3,19 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Build Stage'
+                echo 'Build Stage Updated'
             }
         }
         stage('Test') {
             steps {
-                echo 'Test Stage'
+                echo 'Test Stage updated'
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Deploy Stage'
+                echo 'Deploy Stage updated'
             }
         }
     }
 }
+
